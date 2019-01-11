@@ -4,7 +4,7 @@
     "type": "git",
     "url": "https://github.com/gideonelazar/angularry.git"
   },
-  "version": "0.0.0-development",
+  "version": "0.0.0-semantically-released",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
