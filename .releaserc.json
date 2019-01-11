@@ -6,7 +6,7 @@
     },
     {
       "path": "@semantic-release/exec",
-      "cmd": "${nextRelease.version}"
+      "cmd": "echo ${nextRelease.version}"
     }
   ],
   "analyzeCommits": {
