@@ -6,7 +6,7 @@
     },
     {
       "path": "@semantic-release/exec",
-      "cmd": "yarn version-assets -d ./dist -r ${nextRelease.version}"
+      "cmd": "cat ${nextRelease.version}"
     }
   ],
   "analyzeCommits": {
