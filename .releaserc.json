@@ -1,12 +1,12 @@
 {
-  "npmPublish": false,
+  "npmPublish": true,
   "publish": [
     {
       "path": "@semantic-release/github"
     },
     {
       "path": "@semantic-release/exec",
-      "cmd": "cat ${nextRelease.version}"
+      "cmd": "echo ${nextRelease.version}"
     }
   ],
   "analyzeCommits": {
