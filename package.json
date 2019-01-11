@@ -2,18 +2,19 @@
   "name": "angularry",
   "repository": {
     "type": "git",
-    "url": "git@github.com:gideonelazar/angularry.git"
+    "url": "https://github.com/gideonelazar/angularry.git"
   },
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "semantic-release": "semantic-release"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "~7.1.0",
     "@angular/common": "~7.1.0",
@@ -52,11 +53,14 @@
     "karma-jasmine-html-reporter": "^0.2.2",
     "ng-packagr": "^4.2.0",
     "protractor": "~5.4.0",
-    "semantic-release": "^15.13.2",
+    "semantic-release": "^15.13.3",
     "ts-node": "~7.0.0",
     "tsickle": ">=0.29.0",
     "tslib": "^1.9.0",
     "tslint": "~5.11.0",
     "typescript": "~3.1.6"
+  },
+  "publishConfig": {
+    "access": "restricted"
   }
 }
