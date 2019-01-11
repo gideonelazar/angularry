@@ -1,0 +1,53 @@
+{
+  "npmPublish": false,
+  "publish": [
+    {
+      "path": "@semantic-release/github"
+    },
+    {
+      "path": "@semantic-release/exec",
+      "cmd": "yarn version-assets -d ./dist -r ${nextRelease.version}"
+    }
+  ],
+  "analyzeCommits": {
+    "preset": "angular",
+    "releaseRules": [
+      {
+        "type": "docs",
+        "scope": "README",
+        "release": "patch"
+      },
+      {
+        "type": "refactor",
+        "release": "patch"
+      },
+      {
+        "type": "style",
+        "release": "patch"
+      }
+    ],
+    "parserOpts": {
+      "noteKeywords": [
+        "BREAKING CHANGE",
+        "BREAKING CHANGES",
+        "BREAKING"
+      ]
+    }
+  },
+  "notesGenerator": {
+    "preset": "angular",
+    "parserOpts": {
+      "noteKeywords": [
+        "BREAKING CHANGE",
+        "BREAKING CHANGES",
+        "BREAKING"
+      ]
+    },
+    "writerOpts": {
+      "commitsSort": [
+        "subject",
+        "scope"
+      ]
+    }
+  }
+}

@@ -1,5 +1,9 @@
 {
   "name": "angularry",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gideonelazar/angularry.git"
+  },
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -19,6 +23,11 @@
     "@angular/platform-browser": "~7.1.0",
     "@angular/platform-browser-dynamic": "~7.1.0",
     "@angular/router": "~7.1.0",
+    "@semantic-release/commit-analyzer": "^6.1.0",
+    "@semantic-release/exec": "^3.3.2",
+    "@semantic-release/git": "^7.0.7",
+    "@semantic-release/npm": "^5.1.3",
+    "@semantic-release/release-notes-generator": "^7.1.4",
     "core-js": "^2.5.4",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
