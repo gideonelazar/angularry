@@ -3,6 +3,10 @@
   "publish": [
     {
       "path": "@semantic-release/github"
+    },
+    {
+      "path": "@semantic-release/exec",
+      "cmd": "yarn version-assets -d ./dist -r ${nextRelease.version}"
     }
   ],
   "analyzeCommits": {
