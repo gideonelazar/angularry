@@ -37,7 +37,9 @@ jobs:
           command: npm run package
       - run:
           name: release
-          command: npm run semantic-release
+          command: |
+            cd dist/krembo
+            npx semantic-release
 
 workflows:
   version: 2
