@@ -46,10 +46,10 @@ workflows:
   build:
     jobs:
       - build
-      - hold:
-          type: approval
-          requires:
-            - build
+#      - hold:
+#          type: approval
+#          requires:
+#            - build
       - package
   package:
     jobs:
@@ -60,4 +60,4 @@ workflows:
 #            - build
       - package:
           requires:
-            - hold
+            - build
