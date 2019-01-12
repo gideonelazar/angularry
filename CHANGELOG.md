@@ -1,3 +1,13 @@
+## [1.3.3](https://github.com/gideonelazar/angularry/compare/v1.3.2...v1.3.3) (2019-01-12)
+
+
+### Bug Fixes
+
+* **build:** fixed package json ([6f2a626](https://github.com/gideonelazar/angularry/commit/6f2a626))
+* **build:** fixed path ([6c504d0](https://github.com/gideonelazar/angularry/commit/6c504d0))
+* **circle:** removed install ([9aff27d](https://github.com/gideonelazar/angularry/commit/9aff27d))
+* **combo:** removed module ([aa8a76f](https://github.com/gideonelazar/angularry/commit/aa8a76f))
+
 ## [1.3.2](https://github.com/gideonelazar/angularry/compare/v1.3.1...v1.3.2) (2019-01-12)
 
 
