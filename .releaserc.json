@@ -10,19 +10,26 @@
     "@semantic-release/git",
     {
       "path": "@semantic-release/git",
-      "assets": [ "package.json" ],
+      "assets": [
+        "package.json"
+      ],
       "message": "Release: ${nextRelease.version}"
     }
   ],
   "publish": [
     {
-      "path": "@semantic-release/github"
+      "path": "@semantic-release/github",
+      "assets": "dist/*.tgz"
     },
     {
       "path": "@semantic-release/exec",
       "cmd": "echo ${nextRelease.version}"
     },
-    "@semantic-release/npm"
+    {
+      "path": "@semantic-release/npm",
+      "npmPublish": true,
+      "tarballDir": "dist"
+    }
   ],
   "analyzeCommits": {
     "preset": "angular",
