@@ -34,9 +34,7 @@ jobs:
           at:  ~/project
       - run:
           name: package
-          command:
-            npm i
-            npm run package
+          command: npm run package
       - run:
           name: release
           command: npm run semantic-release
