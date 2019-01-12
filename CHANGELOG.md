@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/gideonelazar/angularry/compare/v1.3.3...v1.3.4) (2019-01-12)
+
+
+### Bug Fixes
+
+* **build:** remove publishConfig ([f7add3d](https://github.com/gideonelazar/angularry/commit/f7add3d))
+
 ## [1.3.3](https://github.com/gideonelazar/angularry/compare/v1.3.2...v1.3.3) (2019-01-12)
 
 
