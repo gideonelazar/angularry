@@ -1,3 +1,11 @@
+## [1.3.5](https://github.com/gideonelazar/angularry/compare/v1.3.4...v1.3.5) (2019-01-12)
+
+
+### Bug Fixes
+
+* **build:** fix ([9dbc124](https://github.com/gideonelazar/angularry/commit/9dbc124))
+* **build:** tarball ([5bf115c](https://github.com/gideonelazar/angularry/commit/5bf115c))
+
 ## [1.3.4](https://github.com/gideonelazar/angularry/compare/v1.3.3...v1.3.4) (2019-01-12)
 
 
