@@ -13,7 +13,7 @@
       "assets": [
         "package.json"
       ],
-      "message": "Release: ${nextRelease.version}"
+      "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
     }
   ],
   "publish": [
@@ -79,5 +79,7 @@
         "scope"
       ]
     }
-  }
+  },
+  "success": [],
+  "fail": []
 }
