@@ -29,6 +29,9 @@
     "@angular/router": "~7.1.0",
     "@semantic-release/changelog": "^3.0.2",
     "core-js": "^2.5.4",
+    "npm": "^6.5.0",
+    "package": "^1.0.1",
+    "run": "^1.4.0",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"
