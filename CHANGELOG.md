@@ -1,3 +1,10 @@
+## [1.3.2](https://github.com/gideonelazar/angularry/compare/v1.3.1...v1.3.2) (2019-01-12)
+
+
+### Bug Fixes
+
+* **combo:** test ([5511202](https://github.com/gideonelazar/angularry/commit/5511202))
+
 ## [1.3.1](https://github.com/gideonelazar/angularry/compare/v1.3.0...v1.3.1) (2019-01-12)
 
 
