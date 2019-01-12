@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import {ComboModule} from 'krembo';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -9,8 +8,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule,
-    ComboModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
