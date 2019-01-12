@@ -46,7 +46,7 @@
   "publish": [
     {
       "path": "@semantic-release/github",
-      "assets": "dist/*.tgz"
+      "assets": "dist/krembo/*.tgz"
     },
     {
       "path": "@semantic-release/exec",
@@ -55,7 +55,7 @@
     {
       "path": "@semantic-release/npm",
       "npmPublish": true,
-      "tarballDir": "dist"
+      "tarballDir": false
     }
   ],
   "git": {
