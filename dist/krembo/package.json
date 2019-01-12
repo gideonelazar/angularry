@@ -1,0 +1,21 @@
+{
+  "name": "krembo",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^7.1.0",
+    "@angular/core": "^7.1.0"
+  },
+  "main": "bundles/krembo.umd.js",
+  "module": "fesm5/krembo.js",
+  "es2015": "fesm2015/krembo.js",
+  "esm5": "esm5/krembo.js",
+  "esm2015": "esm2015/krembo.js",
+  "fesm5": "fesm5/krembo.js",
+  "fesm2015": "fesm2015/krembo.js",
+  "typings": "krembo.d.ts",
+  "metadata": "krembo.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
