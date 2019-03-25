@@ -1,6 +1,6 @@
-## [1.3.6](https://github.com/gideonelazar/angularry/compare/v1.3.5...v1.3.6) (2019-01-12)
+## [1.3.7](https://github.com/gideonelazar/angularry/compare/v1.3.6...v1.3.7) (2019-03-25)
 
 
 ### Bug Fixes
 
-* **build:** circle ([b06dff4](https://github.com/gideonelazar/angularry/commit/b06dff4))
+* test ([087411f](https://github.com/gideonelazar/angularry/commit/087411f))
