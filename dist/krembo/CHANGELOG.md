@@ -1,6 +1,6 @@
-## [1.3.7](https://github.com/gideonelazar/angularry/compare/v1.3.6...v1.3.7) (2019-03-25)
+## [1.3.8](https://github.com/gideonelazar/angularry/compare/v1.3.7...v1.3.8) (2021-02-12)
 
 
 ### Bug Fixes
 
-* test ([087411f](https://github.com/gideonelazar/angularry/commit/087411f))
+* update text ([1bdb731](https://github.com/gideonelazar/angularry/commit/1bdb731))
