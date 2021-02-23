@@ -1,9 +1,6 @@
-# [2.0.0-next.1](https://github.com/gideonelazar/angularry/compare/v1.3.9...v2.0.0-next.1) (2021-02-23)
+# [2.0.0-next.2](https://github.com/gideonelazar/angularry/compare/v2.0.0-next.1...v2.0.0-next.2) (2021-02-23)
 
 
-* chore!: upgrade angular version ([559ac1f](https://github.com/gideonelazar/angularry/commit/559ac1fb40ca67c34c5347228c30e8a9993288e7))
+### Features
 
-
-### BREAKING CHANGES
-
-* Require angular  >= 11.x
+* test next branch `feature` ([aadace7](https://github.com/gideonelazar/angularry/commit/aadace7d3e0f543a1a1e90e71b9e1e0234b16637))
