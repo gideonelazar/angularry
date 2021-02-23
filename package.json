@@ -12,7 +12,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build_lib": "ng build --project=krembo",
+    "build_lib": "ng build --project=krembo --prod",
     "npm_pack": "cd dist/krembo && npm pack",
     "package": "npm run build_lib && npm run npm_pack",
     "semantic-release": "./node_modules/.bin/semantic-release"
