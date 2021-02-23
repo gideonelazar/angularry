@@ -52,6 +52,17 @@ workflows:
                 - master
                 - next
                 - beta
+      - hold-release-publish:
+          type: approval
+          requires:
+            - build
+      - build:
+          filters:
+            branches:
+              only:
+                - master
+                - next
+                - beta
                 - 1.x
                 - 1.3.x
                 - v8.x-lts
