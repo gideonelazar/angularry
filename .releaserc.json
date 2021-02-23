@@ -1,4 +1,19 @@
 {
+  "branches": [
+    {
+      "name": "master"
+    },
+    {
+      "name": "next",
+      "channel": "next",
+      "prerelease": "next"
+    },
+    {
+      "name": "beta",
+      "channel": "beta",
+      "prerelease": "beta"
+    }
+  ],
   "npmPublish": true,
   "verifyConditions": [
     "@semantic-release/changelog",
@@ -80,7 +95,5 @@
         "scope"
       ]
     }
-  },
-  "success": [],
-  "fail": []
+  }
 }

@@ -1,6 +1,6 @@
-## [1.3.9](https://github.com/gideonelazar/angularry/compare/v1.3.8...v1.3.9) (2021-02-12)
+# [2.0.0-next.4](https://github.com/gideonelazar/angularry/compare/v2.0.0-next.3...v2.0.0-next.4) (2021-02-23)
 
 
 ### Bug Fixes
 
-* update api ([5aaed80](https://github.com/gideonelazar/angularry/commit/5aaed8030da4a718cbc9398ee1bcf47a00482b11))
+* test patch 2 ([9b51fa1](https://github.com/gideonelazar/angularry/commit/9b51fa15007c1146c90902ec07890dd6d4a139b2))
