@@ -1,6 +1,6 @@
-# [2.0.0-next.2](https://github.com/gideonelazar/angularry/compare/v2.0.0-next.1...v2.0.0-next.2) (2021-02-23)
+# [2.0.0-next.3](https://github.com/gideonelazar/angularry/compare/v2.0.0-next.2...v2.0.0-next.3) (2021-02-23)
 
 
-### Features
+### Bug Fixes
 
-* test next branch `feature` ([aadace7](https://github.com/gideonelazar/angularry/commit/aadace7d3e0f543a1a1e90e71b9e1e0234b16637))
+* test patch ([1bab70c](https://github.com/gideonelazar/angularry/commit/1bab70c371bd5fdd53b3b91fbc4828d179b14096))
