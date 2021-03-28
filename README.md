@@ -1,3 +1,5 @@
+[![Release](https://github.com/gideonelazar/angularry/actions/workflows/release.yml/badge.svg)](https://github.com/gideonelazar/angularry/actions/workflows/release.yml)
+
 # Angularry
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.2.
