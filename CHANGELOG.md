@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/gideonelazar/angularry/compare/v2.0.0...v2.0.1) (2021-03-28)
+
+
+### Bug Fixes
+
+* update workflow credentials ([2320ea5](https://github.com/gideonelazar/angularry/commit/2320ea5bef16438ab31975d98ee32d4c75e4e42b))
+
 ## [1.3.5](https://github.com/gideonelazar/angularry/compare/v1.3.4...v1.3.5) (2019-01-12)
 
 
